@@ -4,7 +4,12 @@
   "description": "unicode",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server",
+    "lint": "eslint src test",
+    "fix": "eslint \"src/**\" --fix",
+    "test": "jest",
+    "test:mocha": "mocha",
+    "test:cov": "yarn test -- --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,8 +25,12 @@
   },
   "homepage": "https://github.com/mirreal/unicode#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.17.0",
     "eslint-config-link-base": "^0.1.2",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "http-server": "^0.11.1",
+    "jest": "^22.2.2",
+    "mocha": "^5.0.0"
   }
 }

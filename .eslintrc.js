@@ -1,5 +1,6 @@
 module.exports = {
     env: {
+        browser: true,
         node: true,
         commonjs: true,
         es6: true
@@ -10,6 +11,7 @@ module.exports = {
         'link-base'
     ],
     rules: {
-        'no-console': 0
+        'no-console': 0,
+        'no-var': 0
     }
 }
