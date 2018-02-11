@@ -84,8 +84,6 @@ http://tool.oschina.net/commons?type=2
 
 #### 判断汉字
 
-http://code.ctripgroup.cn/irdc/Flight-H5/blob/2018-01-25-0.9.18/src/lib/utility.js#L375
-
 ```js
 function isChinese(text) {
     var reg = /^[\u4e00-\u9fff]+$/;
