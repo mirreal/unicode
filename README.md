@@ -113,8 +113,9 @@ console.log('\u{1f347}') // 🍇
 #### ECMAScript String
 
 * `\uXXXX` unicode 码 (`\u0000`~`\uFFFF`) 65536
-* `\xXX`  [Latin-1 字符](https://zh.wikipedia.org/wiki/ISO/IEC_8859-1) (0x00-0xFF) 向下兼容 ASCII(0x00-0x7F)
 * `\u{X}` ... `\u{XXXXXX}` ES6 unicode 码
+* `\xXX`  [Latin-1 字符](https://zh.wikipedia.org/wiki/ISO/IEC_8859-1) (0x00-0xFF) 向下兼容 ASCII(0x00-0x7F)
+* `\xxx` 八进制
 
 example:
 
